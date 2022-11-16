@@ -1,6 +1,7 @@
 import React from 'react';
 import { PokemonSchema } from '../../types/PokemonSchema';
 import Pokecard from '../Pokecard/Pokecard';
+import './Pokelist.css'
 
 interface PokelistProps {
     searchedPokemons: PokemonSchema[];
