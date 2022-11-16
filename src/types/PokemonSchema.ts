@@ -24,5 +24,5 @@ export interface PokemonSchema {
     order?: string;
     is_default?: string;
     name?: string;
-    sprites?: PokemonSpritesSchema; 
+    sprites: PokemonSpritesSchema; 
 }
