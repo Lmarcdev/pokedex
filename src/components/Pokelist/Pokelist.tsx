@@ -4,9 +4,10 @@ import Pokecard from '../Pokecard/Pokecard';
 
 interface PokelistProps {
     searchedPokemons: PokemonSchema[];
+    onPokemonClick: (pokemonName: string) => void;
 }
 
-const Pokelist = ({ searchedPokemons }: PokelistProps) => {
+const Pokelist = ({ searchedPokemons, onPokemonClick }: PokelistProps) => {
     return (
         <div className='pokelist'>
             {
@@ -14,6 +15,7 @@ const Pokelist = ({ searchedPokemons }: PokelistProps) => {
                 return (
                     pokemon.name && (
                     <Pokecard
+                        onPokemonClick={onPokemonClick}
                         key={pokemon.id}
                         name={pokemon.name}
                         spriteUrl={pokemon.sprites.normal}
