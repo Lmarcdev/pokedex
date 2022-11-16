@@ -1,3 +1,4 @@
 # Pokedex
 
-https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap
+Used fonts:
+-https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap
